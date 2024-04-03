@@ -1,0 +1,101 @@
+body{
+    background-image: url("./img/Background_computer.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  } 
+
+
+header{
+    display: flex;
+    background-color: gray;
+    height: 75px;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    gap: 10px;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.icon{
+    float: left;
+    height: 75px;
+}
+
+.Plaque{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 250px;
+    height: 250px;
+    margin-left:auto ;
+    margin-right: auto;
+}
+
+.Plaque_text{
+    display: flex; 
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    color: darkred;
+    font-weight: bold;
+    font-size: 25px;
+}
+.Quote{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: flex-end;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_quote{
+    display: flex;
+    margin-top: 35%;
+    justify-content: center;
+}
+h2{
+    color:white;
+    margin-top:20px;
+    text-align: center;
+}
+
+@media screen and (max-width:1000px) {
+    body {
+        background-image: url("./img/Background_mobile.jpeg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;   
+    } 
+    .Plaque_text{
+        display: flex;
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+        color: darkred;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .Quote{
+        display: flex;
+        position: absolute;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
