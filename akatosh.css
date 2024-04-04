@@ -11,6 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 h3{
     font-weight: bold;
@@ -28,9 +29,10 @@ article{
 .akatosh{
     display: flex;
     position: absolute;
+    justify-content: center;
+    align-items: center;
     height: 200px;
     width: auto;
-    left:27%;
     flex-direction: row;
     
 }

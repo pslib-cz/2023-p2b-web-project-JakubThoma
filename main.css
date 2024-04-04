@@ -3,7 +3,8 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;  } 
+    background-attachment: fixed; 
+    margin:0; } 
 
 
 header{
@@ -35,8 +36,8 @@ a{
     display: flex;
     justify-content: center;
     align-self: center;
-    width: 250px;
-    height: 250px;
+    width: 400px;
+    height: 350px;
     margin-left:auto ;
     margin-right: auto;
 }
@@ -49,7 +50,7 @@ a{
     align-self: center;
     color: darkred;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 40px;
 }
 .Quote{
     display: flex;
@@ -97,5 +98,9 @@ h2{
         position: absolute;
         align-items: center;
         justify-content: flex-end;
+    }
+    .Plaque{
+        height: 250px;
+        width: 250px;
     }
 }

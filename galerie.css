@@ -1,1 +1,11 @@
+.weapon1, .weapon2, .weapon3, .weapon4, .armor{
+    display: flex;
+    color: white;
+    font-size: large;
+}
+
+.armory{
+    width: 300px;
+    height: auto;
+}
 
