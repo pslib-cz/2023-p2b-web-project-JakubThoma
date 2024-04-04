@@ -2,10 +2,23 @@
     display: flex;
     color: white;
     font-size: large;
+    margin-top: 10px;
+    flex-direction: column;
 }
 
 .armory{
     width: 300px;
     height: auto;
+    border: 3px;
+    border-color: gray;
+    border-radius: 5px;
+    border-style: solid;
 }
 
+.jarthol, .asdrik, .leercrit, .hitoxnul, .bordun {
+    display: block;
+    border: 2px;
+    border-color: red;
+    border-radius: 5px;
+    border-style: solid;
+}
