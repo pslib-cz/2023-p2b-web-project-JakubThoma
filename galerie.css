@@ -4,6 +4,7 @@
     font-size: large;
     margin-top: 10px;
     flex-direction: column;
+    opacity: 1;
 }
 
 .armory{
@@ -17,8 +18,11 @@
 
 .jarthol, .asdrik, .leercrit, .hitoxnul, .bordun {
     display: block;
+    color: white;
     border: 2px;
     border-color: red;
     border-radius: 5px;
     border-style: solid;
+    background-color: rgb(255,0,0,0.5);
+    opacity: 0.5;
 }
