@@ -1,0 +1,36 @@
+form{
+    display: block;
+    color: white;
+    align-self: center;
+    justify-content: center;
+    position: absolute;
+    overflow: hidden;
+}
+
+.Plaque_login{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 400px;
+    height: 350px;
+    margin-left:auto ;
+    margin-right: auto;
+    position: absolute;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75%;
+}
+
+button{
+    display: flex;
+    margin-top: 5px;
+    margin-left:36% ;
+}
+
+button > a{
+    color: black;
+}
