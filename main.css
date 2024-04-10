@@ -21,7 +21,13 @@ footer{
     bottom: 0;
     height: 50px;
     width: 100%;
+    align-items: center;
+    font-size:large ;
 }
+footer > a{
+    margin-left: 5% ;
+}
+
 nav{
     display: flex;
     justify-content: center;
