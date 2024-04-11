@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.min.css">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="galerie.css">
     <title>Gallery</title>
@@ -10,7 +11,7 @@
 <body>
     <header>
         <nav>
-            <img class="icon" src="./img/Icon.png">
+            <img class="icon" src="./img/Icon.png" alt="icon">
             <ul>
                 <li><a href="akatosh.html">Akatosh</a></li>
                 <li><a href="index.html">Home</a></li>
@@ -18,11 +19,11 @@
         </nav>
     </header>
     <div class="container">
-        <img class="Plaque" src="./img/Plaque.png">
+        <img class="Plaque" src="./img/Plaque.png" alt="plaque">
         <p class="Plaque_text">Gallery</p>
     </div>
     <div class="weapon1">
-        <img class="armory" src="./img/jarthol.jpeg">
+        <img class="armory" src="./img/jarthol.jpeg" alt="scythe">
         <div class="jarthol">
             <h3>Jarthol</h3>
             <p>Jarthol the scythe of Akatosh, known as the Soul Slasher and Stealer of Life</p>
@@ -31,28 +32,28 @@
         </div>
     </div>
     <div class="weapon2">
-        <img class="armory" src="./img/asdrik.jpeg">
+        <img class="armory" src="./img/asdrik.jpeg" alt="war_axe">
         <div class="asdrik">
             <h3>Asdrik</h3>
             <p>nyum</p>
         </div>
     </div>
     <div class="weapon3">
-        <img class="armory" src="./img/Icon.png">
+        <img class="armory" src="./img/Icon.png" alt="Unknown">
         <div class="hitoxnul">
             <h3>Hitoxnul</h3>
             <p>nyum</p>
         </div>
     </div>  
     <div class="weapon4">
-        <img class="armory" src="./img/leercrit.jpeg">
+        <img class="armory" src="./img/leercrit.jpeg" alt="crossbow">
         <div class="leercrit">
             <h3>Leercrit</h3>
             <p>nyum</p>
         </div>
     </div>
     <div class="armor">
-        <img class="armory" src="./img/bordun.jpeg">
+        <img class="armory" src="./img/bordun.jpeg" alt="armor">
         <div class="bordun">
             <h3>Bordun</h3>
             <p>nyum</p>
@@ -61,5 +62,20 @@
     <footer>
         <a href="login.html">Login</a>
     </footer>
+    <script type="module">
+        import lightgallery from 'https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/+esm'
+        import lgThumbnail from 'https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/thumbnail/+esm'
+        import lgPager from 'https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/pager/+esm'
+        import lgZoom from 'https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/zoom/+esm'
+        import lgAutoplay from 'https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/autoplay/+esm'
+       
+        lightgallery(document.querySelector('.armory'),
+          {
+            selector: document.querySelectorAll('.armory'),
+            plugins: [lgThumbnail, lgPager, lgZoom, lgAutoplay],
+            slideShowAutoplay: true,
+            slideShowInterval: 2000,
+          });
+      </script>
 </body>
 </html>

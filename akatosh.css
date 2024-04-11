@@ -25,7 +25,7 @@ article{
     justify-content: center;
     align-items: center;
 }
-
+/*
 .full_container > article{
     border: 2px;
     border-style: solid;
@@ -33,7 +33,7 @@ article{
     border-color: red;
     opacity: 0.5;
 }
-
+*/
 @media screen and (max-width:1000px) {
 .akatosh{
     display: flex;
