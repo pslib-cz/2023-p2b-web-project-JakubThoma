@@ -1,6 +1,6 @@
 body{
-    background-image: url("./img/Background_computer.png");
-    background-position:49% 50%;
+    background-image: url("./img/Background_computer.jpeg");
+    background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; 
@@ -35,7 +35,6 @@ nav{
     text-decoration: none;
     font-size: large;
     gap: 10px;
-    
 }
 a{
     color: white;
@@ -44,13 +43,16 @@ a{
 .icon{
     float: left;
     height: 75px;
+    max-height: 75px;
+    max-width: 75px;
+    width: relative;
 }
 
 .Plaque{
     display: flex;
     justify-content: center;
     align-self: center;
-    width: 400px;
+    width: relative;
     height: 350px;
     margin-left:auto ;
     margin-right: auto;
@@ -92,7 +94,7 @@ h2{
 @media screen and (max-width:1000px) {
     body {
         background-image: url("./img/Background_mobile.jpeg");
-        background-position: 53.7% 50%;
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;   

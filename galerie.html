@@ -11,7 +11,11 @@
 <body>
     <header>
         <nav>
-            <img class="icon" src="./img/Icon.png" alt="icon">
+            <picture>
+                <source class="icon" srcset="./img/Icon.svg" alt="icon">
+                <source class="icon" srcset="./img/Icon.webp" alt="icon">
+                <img class="icon" src="./img/Icon.png" alt="icon">
+            </picture>
             <ul>
                 <li><a href="akatosh.html">Akatosh</a></li>
                 <li><a href="index.html">Home</a></li>
@@ -19,7 +23,11 @@
         </nav>
     </header>
     <div class="container">
-        <img class="Plaque" src="./img/Plaque.png" alt="plaque">
+        <picture class="Plaque">
+            <source srcset="./img/Plaque.svg" alt="plaque">
+            <source srcset="./img/Plaque.webp" alt="plaque">
+            <img src="./img/Plaque.png" alt="plaque">
+        </picture>
         <p class="Plaque_text">Gallery</p>
     </div>
     <div class="weapon1">
@@ -60,7 +68,10 @@
         </div>
     </div>
     <footer>
-        <a href="login.html">Login</a>
+        <ul>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+        
     </footer>
     <script type="module">
         import lightgallery from 'https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/+esm'

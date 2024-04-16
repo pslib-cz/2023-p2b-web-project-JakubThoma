@@ -1,11 +1,10 @@
 .akatosh{
     display: flex;
     position: absolute;
-    justify-content: center;
-    align-items: center;
-    margin-top: 250px;
-    height: 300px;
-    width: auto;
+    max-height: 300px;
+    height: relative;
+    width: relative;
+    max-width: 300px;
 }
 .container{
     display: flex;

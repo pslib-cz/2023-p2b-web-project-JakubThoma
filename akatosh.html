@@ -10,7 +10,13 @@
 <body>
     <header>
         <nav>
-            <img class="icon" src="./img/Icon.png" alt="icon">
+            
+            <picture>
+                <source class="icon" srcset="./img/Icon.svg" alt="icon">
+                <source class="icon" srcset="./img/Icon.webp" alt="icon">
+                <img class="icon" src="./img/Icon.png" alt="icon">
+            </picture>
+            
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="galerie.html">Gallery</a></li>
@@ -18,12 +24,26 @@
         </nav>
     </header>
     <div class="container_plaque">
-        <img class="Plaque" src="./img/Plaque.png" alt="plaque">
+        <picture class="Plaque">
+            <source srcset="./img/Plaque.svg" alt="plaque">
+            <source srcset="./img/Plaque.webp" alt="plaque">
+            <img src="./img/Plaque.png" alt="plaque">
+        </picture>
+
         <p class="Plaque_text">Akatosh</p>
     </div>
 
 <div class="full_container">
-    <div class="container"><img class="akatosh" src="./img/akatosh.png" alt="akatosh"></div>
+    <div class="container">
+        
+        <picture>
+            <source class="akatosh" srcset="./img/akatosh.svg" alt="akatosh">
+            <source class="akatosh" srcset="./img/akatosh.webp" alt="akatosh">
+            <source class="akatosh" srcset="./img/akatosh.jpg" alt="akatosh">
+            <img class="akatosh" src="./img/akatosh.png" alt="akatosh">
+        </picture>
+        
+    </div>
     <article class="article1">
         <p> <h3>Full name:</h3>Akatosh Void Orthonux
         <p> <h3>Gender:</h3>Genderless (prefers looking male)
@@ -39,7 +59,9 @@
     </article>
 </div>
 <footer>
-    <a href="login.html">Login</a>
+    <ul>
+        <li><a href="login.html">Login</a></li>
+    </ul>
 </footer>
 </body>
 

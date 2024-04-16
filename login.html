@@ -10,7 +10,11 @@
 <body>
     <header>
         <nav>
-            <img class="icon" src="./img/Icon.png" alt="icon">
+            <picture>
+                <source class="icon" srcset="./img/Icon.svg" alt="icon">
+                <source class="icon" srcset="./img/Icon.webp" alt="icon">
+                <img class="icon" src="./img/Icon.png" alt="icon">
+            </picture>
             <ul>
                 <li><a href="akatosh.html">Akatosh</a></li>
                 <li><a href="galerie.html">Gallery</a></li>
@@ -21,7 +25,13 @@
         </nav>
     </header>
     <div class="login">
-        <img class="Plaque_login" src="./img/Plaque.png" alt="plaque">
+        
+        <picture class="Plaque_login" >
+            <source srcset="./img/Plaque.svg" alt="plaque">
+            <source srcset="./img/Plaque.webp" alt="plaque">
+            <img src="./img/Plaque.png" alt="plaque">
+        </picture>
+
         <form>
             Username: <br>
             <input type="text" name="user_id" value="">

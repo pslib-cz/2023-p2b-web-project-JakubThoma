@@ -9,8 +9,10 @@
 }
 
 .armory{
-    width: 300px;
-    height: auto;
+    width: relative;
+    max-width: 300px;
+    max-height: 300px;
+    height: relative;
     border: 3px;
     border-color: gray;
     border-radius: 5px;
