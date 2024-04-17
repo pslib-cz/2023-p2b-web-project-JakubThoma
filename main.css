@@ -12,6 +12,7 @@ header{
     background-color: gray;
     height: 75px;
     width: 100%;
+    contain: content;
 }
 
 footer{
@@ -67,6 +68,16 @@ a{
     color: darkred;
     font-weight: bold;
     font-size: 40px;
+}
+.Plaque_text--main{
+    display: flex; 
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    color: darkred;
+    font-weight: bold;
+    font-size: 30px;
 }
 .Quote{
     display: flex;

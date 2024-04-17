@@ -1,9 +1,11 @@
+
 .akatosh{
     display: flex;
     max-height: 300px;
     height: relative;
     width: relative;
     max-width: 300px;
+    grid-column: 2 / span 2;
 }
 .container{
     display: flex;
@@ -24,9 +26,20 @@ article{
     align-items: center;
 }
 
-.full_container{
+.full_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
 
+.article1{
+    grid-column: 2 / 2;
 }
+
+.article1,
+.article2 {
+    margin-left: 20px;
+  }
 
 @media screen and (max-width:1000px) {
 .akatosh{
