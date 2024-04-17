@@ -94,7 +94,7 @@ h2{
 @media screen and (max-width:1000px) {
     body {
         background-image: url("./img/Background_mobile.jpeg");
-        background-position: center;
+        background-position: center top;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;   
