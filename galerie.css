@@ -1,11 +1,12 @@
-.weapon1, .weapon2, .weapon3, .weapon4, .armor{
+.weapon1, .weapon2, .weapon3, .armor{
     display: flex;
     color: white;
     font-size: large;
-    margin-top: 10px;
+    align-items: center;
+    margin-top: 3rem;
     flex-direction: column;
     opacity: 1;
-    margin-bottom: 2%;
+    margin-bottom: 2rem;
 }
 
 .armory{
@@ -17,15 +18,21 @@
     border-color: gray;
     border-radius: 5px;
     border-style: solid;
+    margin-bottom: 0.5rem;
+
+}
+
+.full_container--galerie{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .jarthol, .asdrik, .leercrit, .hitoxnul, .bordun {
-    display: block;
     color: white;
     border: 2px;
     border-color: red;
     border-radius: 5px;
     border-style: solid;
-    background-color: rgb(255,0,0,0.5);
-    opacity: 0.5;
+    background-color: rgba(255, 0, 0, 0.219);
+    
 }
