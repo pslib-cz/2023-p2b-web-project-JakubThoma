@@ -1,6 +1,5 @@
 .akatosh{
     display: flex;
-    position: absolute;
     max-height: 300px;
     height: relative;
     width: relative;
@@ -24,23 +23,21 @@ article{
     justify-content: center;
     align-items: center;
 }
-/*
-.full_container > article{
-    border: 2px;
-    border-style: solid;
-    border-radius: 5px;
-    border-color: red;
-    opacity: 0.5;
+
+.full_container{
+
 }
-*/
+
 @media screen and (max-width:1000px) {
 .akatosh{
     display: flex;
     position: absolute;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    width: auto;
+    max-height: 200px;
+    height: relative;
+    width: relative;
+    max-width: 200px;
     flex-direction: row;
     
 }

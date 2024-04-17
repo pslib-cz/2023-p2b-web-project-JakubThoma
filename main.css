@@ -91,7 +91,7 @@ h2{
     text-align: center;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:640px) {
     body {
         background-image: url("./img/Background_mobile.jpeg");
         background-position: center top;
