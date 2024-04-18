@@ -30,6 +30,11 @@ article{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
+    border: red;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 0.5rem;
   }
 
 .article1{
@@ -39,6 +44,7 @@ article{
 .article1,
 .article2 {
     margin-left: 20px;
+    margin-right: 1rem;
   }
 
 @media screen and (max-width:1000px) {
