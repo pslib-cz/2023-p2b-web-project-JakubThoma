@@ -55,9 +55,9 @@ a{
     justify-content: center;
     align-self: center;
     width: relative;
+    height: relative;
+    max-width: 400px;
     max-height: 350px;
-    margin-left:auto ;
-    margin-right: auto;
 }
 
 .Plaque_text{
